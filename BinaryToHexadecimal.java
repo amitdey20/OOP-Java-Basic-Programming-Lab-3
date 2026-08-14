@@ -5,7 +5,7 @@ public class BinaryToHexadecimal {
         System.out.print("Input a binary number: "); 
         String bin = in.next();         
         int dec = Integer.parseInt(bin, 2);          
-        System.out.println("HexaDecimal value: " + Integer.toHexString(dec).toUpperCase()); 
+        System.out.println("HexaDecimal value is: " + Integer.toHexString(dec).toUpperCase()); 
         in.close(); 
     } 
 } 
