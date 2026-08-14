@@ -5,7 +5,7 @@ public class OctalToBinary {
         System.out.print("Input any octal number: "); 
         String oct = in.next();          
         int dec = Integer.parseInt(oct, 8);         
-        System.out.println("Equivalent binary number: " + Integer.toBinaryString(dec)); 
+        System.out.println("Binary number is: " + Integer.toBinaryString(dec)); 
         in.close(); 
     } 
 }
