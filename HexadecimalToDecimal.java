@@ -5,7 +5,7 @@ public class HexadecimalToDecimal {
         System.out.print("Input a hexadecimal number: "); 
         String hex = in.next();          
         int dec = Integer.parseInt(hex, 16);          
-        System.out.println("Equivalent decimal number is: " + dec); 
+        System.out.println("Decimal number is: " + dec); 
         in.close(); 
     } 
 } 
