@@ -5,7 +5,7 @@ public class HexadecimalToOctal {
         System.out.print("Input a hexadecimal number: "); 
         String hex = in.next();          
         int dec = Integer.parseInt(hex, 16);         
-        System.out.println("Equivalent of octal number is: " + Integer.toOctalString(dec)); 
+        System.out.println("Octal number is: " + Integer.toOctalString(dec)); 
 in.close(); 
 } 
 }
