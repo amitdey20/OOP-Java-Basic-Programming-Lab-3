@@ -5,7 +5,7 @@ public class OctalToDecimal {
         System.out.print("Input any octal number: "); 
         String oct = in.next();          
         int dec = Integer.parseInt(oct, 8);         
-        System.out.println("Equivalent decimal number: " + dec); 
+        System.out.println("Decimal number is: " + dec); 
         in.close(); 
     } 
 }
