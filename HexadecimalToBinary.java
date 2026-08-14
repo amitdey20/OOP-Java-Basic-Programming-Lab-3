@@ -5,7 +5,7 @@ public class HexadecimalToBinary {
         System.out.print("Enter Hexadecimal Number : "); 
         String hex = in.next();         
         int dec = Integer.parseInt(hex, 16);         
-        System.out.println("Equivalent Binary Number is: " + Integer.toBinaryString(dec)); 
+        System.out.println("Binary Number is: " + Integer.toBinaryString(dec)); 
         in.close(); 
     } 
 }
